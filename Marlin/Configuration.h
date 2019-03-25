@@ -770,10 +770,10 @@
  */
 #define X_PROBE_OFFSET_FROM_EXTRUDER -45    // X offset: -left  +right  [of the nozzle]
 #define Y_PROBE_OFFSET_FROM_EXTRUDER -4     // Y offset: -front +behind [the nozzle]
-#define Z_PROBE_OFFSET_FROM_EXTRUDER -0.89  // Z offset: -below +above  [the nozzle] // -.83 -.79 -.74
+#define Z_PROBE_OFFSET_FROM_EXTRUDER -0.95  // Z offset: -below +above  [the nozzle] // -.83 -.79 -.74
 // 
 // Certain types of probes need to stay away from edges
-#define MIN_PROBE_EDGE 10
+#define MIN_PROBE_EDGE 5
 
 // X and Y axis travel speed (mm/m) between probes
 #define XY_PROBE_SPEED 8000
