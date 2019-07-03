@@ -770,7 +770,7 @@
  */
 #define X_PROBE_OFFSET_FROM_EXTRUDER -45    // X offset: -left  +right  [of the nozzle]
 #define Y_PROBE_OFFSET_FROM_EXTRUDER -4     // Y offset: -front +behind [the nozzle]
-#define Z_PROBE_OFFSET_FROM_EXTRUDER -0.95  // Z offset: -below +above  [the nozzle] // -.83 -.79 -.74
+#define Z_PROBE_OFFSET_FROM_EXTRUDER -0.92  // Z offset: -below +above  [the nozzle] // -.83 -.79 -.74
 // 
 // Certain types of probes need to stay away from edges
 #define MIN_PROBE_EDGE 5
@@ -1012,7 +1012,7 @@
 #if ENABLED(AUTO_BED_LEVELING_LINEAR) || ENABLED(AUTO_BED_LEVELING_BILINEAR)
 
   // Set the number of grid points per dimension.
-  #define GRID_MAX_POINTS_X 5
+  #define GRID_MAX_POINTS_X 7
   #define GRID_MAX_POINTS_Y GRID_MAX_POINTS_X
 
   // Set the boundaries for probing (where the probe can reach).
