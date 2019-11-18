@@ -770,7 +770,7 @@
  */
 #define X_PROBE_OFFSET_FROM_EXTRUDER -45    // X offset: -left  +right  [of the nozzle]
 #define Y_PROBE_OFFSET_FROM_EXTRUDER -4     // Y offset: -front +behind [the nozzle]
-#define Z_PROBE_OFFSET_FROM_EXTRUDER -0.92  // Z offset: -below +above  [the nozzle] // -.83 -.79 -.74
+#define Z_PROBE_OFFSET_FROM_EXTRUDER -1.20  // Z offset: -below +above  [the nozzle] // -.72
 // 
 // Certain types of probes need to stay away from edges
 #define MIN_PROBE_EDGE 5
@@ -787,7 +787,7 @@
 // The number of probes to perform at each point.
 //   Set to 2 for a fast/slow probe, using the second probe result.
 //   Set to 3 or more for slow probes, averaging the results.
-#define MULTIPLE_PROBING 2
+#define MULTIPLE_PROBING 3
 
 /**
  * Z probes require clearance when deploying, stowing, and moving between
